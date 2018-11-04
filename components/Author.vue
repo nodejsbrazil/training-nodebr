@@ -31,28 +31,26 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped> 
+<style lang="scss" scoped>
+$authorHeight: 600px;
 .Author {
   background-image: url(../assets/author.jpg);
-  height: 80vh;
+  height: $authorHeight;
   background-size: cover;
   background-position: bottom;
   position: relative;
   @media screen and (max-width: 700px) {
-    height: 100vh;
+    background-position: left;
   }
 
   &::before {
     content: "";
     position: absolute;
     width: 100vw;
-    height: 80vh;
+    height: $authorHeight;
     top: 0px;
     left: 0px;
     background-color: rgba(0, 0, 0, 0.5);
-    @media screen and (max-width: 700px) {
-      height: 100vh;
-    }
   }
 
   > .AuthorContainer {
