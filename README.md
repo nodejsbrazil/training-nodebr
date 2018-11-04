@@ -1,4 +1,4 @@
-## NodeBR training landing
+## NodeBR trainning landing
 
 > Landing to NodeBR free training
 
