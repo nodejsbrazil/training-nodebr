@@ -49,9 +49,14 @@ export default {
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
+      @media screen and (max-width: 700px) {
+        flex-direction: column;
+      }
 
       > a {
-
+        @media screen and (max-width: 700px) {
+          margin-top: 20px;
+        }
         > img {
           display: inline-block;
           vertical-align: middle;

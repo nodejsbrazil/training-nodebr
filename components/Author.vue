@@ -34,19 +34,25 @@ export default {
 <style lang="scss" scoped> 
 .Author {
   background-image: url(../assets/author.jpg);
-  height: 73vh;
+  height: 80vh;
   background-size: cover;
   background-position: bottom;
   position: relative;
+  @media screen and (max-width: 700px) {
+    height: 100vh;
+  }
 
   &::before {
     content: "";
     position: absolute;
     width: 100vw;
-    height: 73vh;
+    height: 80vh;
     top: 0px;
     left: 0px;
     background-color: rgba(0, 0, 0, 0.5);
+    @media screen and (max-width: 700px) {
+      height: 100vh;
+    }
   }
 
   > .AuthorContainer {
@@ -60,17 +66,27 @@ export default {
       font-size: 40px;
       align-self: center;
       width: 600px;
+
+      @media screen and (max-width: 700px) {
+        width: 100%;
+      }
     }
 
     > p {
       color: #fff;
       font-size: 20px;
       max-width: 600px;
+      @media screen and (max-width: 700px) {
+        width: 100%;
+      }
     }
 
     > div {
       margin-top: 20px;
       width: 600px;
+      @media screen and (max-width: 700px) {
+        width: 100%;
+      }
     }
   }
 }
