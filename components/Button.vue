@@ -1,9 +1,10 @@
 <template>
-  <button
+  <a
     :style="{ margin: margin }"
+    href="https://erickwendel.typeform.com/to/y6vACu"
     class="StyledBtn">
     <slot />
-  </button>
+  </a>
 </template>
 
 <script>
@@ -25,6 +26,7 @@ export default {
   border-radius: 500px;
   width: 270px;
   text-transform: uppercase;
+  text-align: center;
   outline: none;
   color: #06EF07;
   transition: all .1s ease-in;
