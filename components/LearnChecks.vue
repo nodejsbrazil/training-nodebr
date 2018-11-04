@@ -43,8 +43,11 @@ export default {
 
 .LearnChecksContainer-list {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+
+  @media screen and (max-width: 700px) {
+    flex-wrap: wrap;
+  }
 
   > ul {
     color: #fff;
@@ -57,7 +60,7 @@ export default {
 
       > span {
         font-size: 55px;
-        margin-right: 20px;
+        margin-right: 5px;
       }
     }
   }

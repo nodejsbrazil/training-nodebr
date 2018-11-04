@@ -48,6 +48,7 @@ export default {
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
+      align-items: center;
 
       @media screen and (max-width: 700px) {
         flex-direction: column;
