@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="IndexPage">
     <Hero />
     <AboutCourse />
     <LearnChecks />
@@ -8,6 +8,7 @@
     <Sponsor />
     <Communities />
     <CTA />
+    <CountDown />
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import Author from '@/components/Author'
 import Sponsor from '@/components/Sponsor'
 import Communities from '@/components/Communities'
 import CTA from '@/components/CTA'
+import CountDown from '@/components/CountDown'
 
 export default {
   name: 'Home',
@@ -31,7 +33,14 @@ export default {
     Author,
     Sponsor,
     Communities,
-    CTA
+    CTA,
+    CountDown
   }
 }
 </script>
+
+<style lang="scss">
+.IndexPage {
+  position: relative;
+}
+</style>

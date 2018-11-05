@@ -12,7 +12,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Treinamento gratuito de Node.js pela NodeBR' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lobster+Two' }
     ]
   },
 

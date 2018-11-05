@@ -2,7 +2,12 @@
   <section class="section Hero">
     <div class="container HeroContainer">
       <h1>Node.js para Iniciantes</h1>
-      <p><i>By</i> <strong>#NodeBR!</strong></p>
+      <p class="subtitle"><i>By</i> <strong>#NodeBR!</strong></p>
+      <VueCountdown :time="2163195621">
+        <template slot-scope="props">
+          <p>{{ props.days }} dias {{ props.hours }} horas {{ props.minutes }} minutos {{ props.seconds }} segundos</p>
+        </template>
+      </VueCountdown>
       <StyledButton margin="50px 0px">Reserve sua vaga!</StyledButton>
     </div>
   </section>
@@ -45,7 +50,7 @@ export default {
       font-size: 50px;
       font-weight: 700;
     }
-    > p {
+    .subtitle {
       color: #fff;
       font-size: 30px;
       font-weight: 300;

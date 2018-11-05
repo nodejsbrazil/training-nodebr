@@ -3,7 +3,9 @@
     <div class="container SponsorContainer">
       <StyledTitle margin="0px 0px 60px 0px">Patrocinadores</StyledTitle>
       <div>
-        <a>
+        <a
+          target="_blank"
+          href="https://www.facebook.com/page.erickwendel">
           <img
             src="../assets/ew-logo.png"
             alt="ew.it">
