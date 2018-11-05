@@ -25,6 +25,25 @@
             alt="nerdzao">
         </a>
       </div>
+      <div>
+        <a
+          target="_blank"
+          href="https://www.meetup.com/pt-BR/THT-Things-Hacker-Team/">
+          <img
+            src="../assets/tht.png"
+            alt="tht">
+        </a>
+        <a
+          target="_blank"
+          href="https://criciumadev.com.br/">
+          <img
+            :style="{
+              width: '180px'
+            }"
+            src="../assets/criciuma.svg"
+            alt="criciuma">
+        </a>
+      </div>
     </div>
   </section>
 </template>
@@ -54,6 +73,10 @@ export default {
       }
 
       > a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         @media screen and (max-width: 700px) {
           margin-top: 20px;
         }

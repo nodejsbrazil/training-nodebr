@@ -45,7 +45,7 @@ export default {
     color: #ccc;
     font-weight: 700;
     top: -20px;
-    left: 80px;
+    left: 72px;
   }
 }
 </style>

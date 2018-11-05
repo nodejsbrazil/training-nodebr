@@ -11,8 +11,12 @@
       <div>
         <a
           target="_blank"
-          href="https://github.com/erickwendel"
+          href="https://twitter.com/erickwendel_"
           class="icon icon--twitter" />
+        <a
+          target="_blank"
+          href="https://github.com/erickwendel"
+          class="icon icon--github" />
         <a
           target="_blank"
           href="https://www.linkedin.com/in/erickwendel"
