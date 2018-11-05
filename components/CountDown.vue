@@ -43,26 +43,28 @@ export default {
     font-size: 20px;
     color: #999;
   }
-
-  p strong {
-    font-size: 25px;
-    color: #888;
+  p {
     position: relative;
+
+    strong {
+      font-size: 25px;
+      color: #888;
+    }
   }
 }
 
 .CountDown-pre {
   position: absolute;
   font-size: 20px;
-  top: 0px;
-  left: 46%;
+  top: -20px;
+  left: 150px;
   color: #999;
 }
 .CountDown-after {
   position: absolute;
   font-size: 20px;
-  bottom: 0px;
-  left: 41.5%;
+  bottom: -20px;
+  left: 105px;
   color: #999;
 }
 </style>
