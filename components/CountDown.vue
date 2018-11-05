@@ -4,7 +4,7 @@
       <span class="CountDown-pre">
         <i>faltam</i>
       </span>
-      <VueCountdown :time="2163195621">
+      <VueCountdown :time="calculateTime">
         <template slot-scope="props">
           <strong>{{ props.days }} dias {{ props.hours }} horas {{ props.minutes }} minutos {{ props.seconds }} segundos</strong>
         </template>
@@ -17,11 +17,16 @@
 </template>
 
 <script>
-import VueCountdown from '@xkeshi/vue-countdown'
+import VueCountdown from '@chenfengyuan/vue-countdown'
 
 export default {
   name: 'CountDown',
-  components: { VueCountdown }
+  components: { VueCountdown },
+  computed: {
+    calculateTime () {
+      return new Date('2018-11-27') - new Date().getTime()
+    }
+  }
 }
 </script>
 
