@@ -9,7 +9,12 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Treinamento gratuito de Node.js pela NodeBR' }
+      { name: 'og:title', content: 'Node.js para Iniciantes - #NodeBR!' },
+      { name: 'og:site_name', content: 'NodeBR Treinamento' },
+      { name: 'og:description', content: 'Treinamento gratuito de Node.js pela @NodeBR' },
+      { name: 'og:image', content: 'http://treinamento.nodebr.org/nodebr.png' },
+      { name: 'og:image:type', content: 'image/png' },
+      { hid: 'description', name: 'description', content: 'Treinamento gratuito de Node.js pela @NodeBR' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
