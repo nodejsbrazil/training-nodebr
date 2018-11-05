@@ -42,6 +42,9 @@ $authorHeight: 600px;
   @media screen and (max-width: 700px) {
     background-position: left;
   }
+  @media screen and (max-width: 510px) {
+    height: 800px;
+  }
 
   &::before {
     content: "";
@@ -51,6 +54,10 @@ $authorHeight: 600px;
     top: 0px;
     left: 0px;
     background-color: rgba(0, 0, 0, 0.5);
+
+    @media screen and (max-width: 510px) {
+      height: 800px;
+    }
   }
 
   > .AuthorContainer {

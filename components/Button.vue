@@ -18,6 +18,7 @@ export default {
 
 <style lang="scss" scoped>
 .StyledBtn {
+  position: relative;
   border: 1px solid #06EF07;
   background-color: transparent;
   padding: 20px 30px;
@@ -35,6 +36,16 @@ export default {
     background-color: #06EF07;
     color: #fff;
     cursor: pointer;
+  }
+
+  &::after {
+    position: absolute;
+    content: "treinamento online!";
+    font-size: 10px;
+    color: #ccc;
+    font-weight: 700;
+    top: -20px;
+    left: 80px;
   }
 }
 </style>

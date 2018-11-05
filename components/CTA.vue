@@ -4,7 +4,7 @@
       <StyledTitle
         color="#fff"
         margin="0px 0px 60px 0px">Garanta sua vaga</StyledTitle>
-      <StyledButton>Inscreva-se!</StyledButton>
+      <StyledButton margin="0px 0px 60px 0px">Inscreva-se!</StyledButton>
     </div>
   </section>
 </template>
