@@ -24,6 +24,16 @@
             src="../assets/nerdzao.jpeg"
             alt="nerdzao">
         </a>
+        <a
+          target="_blank"
+          href="https://www.facebook.com/groups/534575580022737/">
+          <img
+            :style="{
+              width: '130px'
+            }"
+            src="../assets/nerdgirlz.jpg"
+            alt="nerdgirlz">
+        </a>
       </div>
       <div>
         <a
@@ -33,6 +43,7 @@
             src="../assets/tht.png"
             alt="tht">
         </a>
+        
         <a
           target="_blank"
           href="https://criciumadev.com.br/">
@@ -43,22 +54,42 @@
             src="../assets/criciuma.svg"
             alt="criciuma">
         </a>
+        <a
+          target="_blank"
+          href="https://www.meetup.com/pt-BR/graphdb-sp/">
+          <img
+            src="../assets/graph-databases-sp.jpeg"
+            alt="graph databases sp">
+        </a>
+        <a
+          target="_blank"
+          href="https://www.meetup.com/pt-BR/nosqlsp">
+          <img
+            src="../assets/no-sql-sp.jpeg"
+            alt="nosql sp">
+        </a>
+        <a
+          target="_blank"
+          href="https://www.meetup.com/pt-BR/Coders-in-Rio/">
+          <img
+            src="../assets/coders-in-rio.png"
+            alt="coders in rio">
+        </a>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import StyledTitle from './Title'
+import StyledTitle from './Title';
 export default {
   name: 'Commuties',
-  components: { StyledTitle }
-}
+  components: { StyledTitle },
+};
 </script>
 
 <style lang="scss" scoped>
 .Communities {
-
   > .CommunitiesContainer {
     display: flex;
     flex-direction: column;
