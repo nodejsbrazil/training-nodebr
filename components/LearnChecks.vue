@@ -14,7 +14,7 @@
         <ul>
           <li> <span>🙀</span> Usar multi bancos de dados</li>
           <li> <span>🔥</span> Criar, manter e documentar seus serviços</li>
-          <li> <span>⚡</span> Usar Nodejs como ferramenta de linha de comando</li>
+          <li> <span>⚡</span> Usar Node.js como ferramenta de linha de comando</li>
         </ul>
       </div>
     </div>

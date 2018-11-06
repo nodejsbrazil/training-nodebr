@@ -15,14 +15,14 @@
           href="http://igorluiz.me">
           <img
             src="../assets/halfeld.png"
-            alt="ew.it">
+            alt="igor luiz">
         </a>
         <a
           target="_blank"
           href="https://www.facebook.com/gruporesolvdata/">
           <img
             src="../assets/resolv.png"
-            alt="ew.it">
+            alt="grupo resolv">
         </a>
       </div>
     </div>
