@@ -68,12 +68,21 @@
             src="../assets/no-sql-sp.jpeg"
             alt="nosql sp">
         </a>
+      </div>
+      <div>
         <a
           target="_blank"
           href="https://www.meetup.com/pt-BR/Coders-in-Rio/">
           <img
             src="../assets/coders-in-rio.png"
             alt="coders in rio">
+        </a>
+        <a
+          target="_blank"
+          href="https://www.facebook.com/thememecode/">
+          <img
+            src="../assets/memecode.png"
+            alt="memecode">
         </a>
       </div>
     </div>
