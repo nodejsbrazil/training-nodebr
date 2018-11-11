@@ -43,7 +43,6 @@
             src="../assets/tht.png"
             alt="tht">
         </a>
-        
         <a
           target="_blank"
           href="https://criciumadev.com.br/">
@@ -53,6 +52,33 @@
             }"
             src="../assets/criciuma.svg"
             alt="criciuma">
+        </a>
+        <a
+          target="_blank"
+          href="https://workweb.congressodeti.com.br/">
+          <img
+            :style="{
+              width: '180px'
+            }"
+            src="../assets/congresso-ti.png"
+            alt="Congresso de TI">
+        </a>
+      </div>
+      <div>
+        <a
+          target="_blank"
+          href="https://www.meetup.com/pt-BR/Coders-in-Rio/">
+          <img
+            src="../assets/coders-in-rio.png"
+            alt="coders in rio">
+        </a>
+        
+        <a
+          target="_blank"
+          href="https://www.facebook.com/thememecode/">
+          <img
+            src="../assets/memecode.png"
+            alt="memecode">
         </a>
         <a
           target="_blank"
@@ -67,22 +93,6 @@
           <img
             src="../assets/no-sql-sp.jpeg"
             alt="nosql sp">
-        </a>
-      </div>
-      <div>
-        <a
-          target="_blank"
-          href="https://www.meetup.com/pt-BR/Coders-in-Rio/">
-          <img
-            src="../assets/coders-in-rio.png"
-            alt="coders in rio">
-        </a>
-        <a
-          target="_blank"
-          href="https://www.facebook.com/thememecode/">
-          <img
-            src="../assets/memecode.png"
-            alt="memecode">
         </a>
       </div>
     </div>

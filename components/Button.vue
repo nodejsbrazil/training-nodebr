@@ -40,12 +40,12 @@ export default {
 
   &::after {
     position: absolute;
-    content: "treinamento online!";
+    content: "treinamento online e gratuito!";
     font-size: 10px;
     color: #ccc;
     font-weight: 700;
     top: -20px;
-    left: 72px;
+    left: 42px;
   }
 }
 </style>
