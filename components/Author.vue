@@ -41,7 +41,7 @@ $authorHeight: 600px;
   background-image: url(../assets/author.jpg);
   height: $authorHeight;
   background-size: cover;
-  background-position: bottom;
+  background-position: 0% 60%;
   position: relative;
   @media screen and (max-width: 700px) {
     background-position: left;
