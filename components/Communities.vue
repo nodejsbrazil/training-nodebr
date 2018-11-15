@@ -5,28 +5,28 @@
       <div>
         <a
           target="_blank"
-          href="https://www.meetup.com/pt-BR/nodebr/">
+          href="https://www.meetup.com/pt-BR/nodebr/?origin=CursoNodeBR">
           <img
             src="../assets/nodebr.jpg"
             alt="nodebr">
         </a>
         <a
           target="_blank"
-          href="https://www.meetup.com/pt-BR/Javascript-SP/">
+          href="https://www.meetup.com/pt-BR/Javascript-SP/?origin=CursoNodeBR">
           <img
             src="../assets/jssp.jpeg"
             alt="jssp">
         </a>
         <a
           target="_blank"
-          href="https://www.meetup.com/pt-BR/Nerdzao/">
+          href="https://www.meetup.com/pt-BR/Nerdzao/?origin=CursoNodeBR">
           <img
             src="../assets/nerdzao.jpeg"
             alt="nerdzao">
         </a>
         <a
           target="_blank"
-          href="https://www.facebook.com/groups/534575580022737/">
+          href="https://www.facebook.com/groups/534575580022737/?origin=CursoNodeBR">
           <img
             :style="{
               width: '130px'
@@ -38,14 +38,14 @@
       <div>
         <a
           target="_blank"
-          href="https://www.meetup.com/pt-BR/THT-Things-Hacker-Team/">
+          href="https://www.meetup.com/pt-BR/THT-Things-Hacker-Team/?origin=CursoNodeBR">
           <img
             src="../assets/tht.png"
             alt="tht">
         </a>
         <a
           target="_blank"
-          href="https://criciumadev.com.br/">
+          href="https://criciumadev.com.br/?origin=CursoNodeBR">
           <img
             :style="{
               width: '180px'
@@ -53,9 +53,10 @@
             src="../assets/criciuma.svg"
             alt="criciuma">
         </a>
+        
         <a
           target="_blank"
-          href="https://workweb.congressodeti.com.br/">
+          href="https://workweb.congressodeti.com.br/?origin=CursoNodeBR">
           <img
             :style="{
               width: '180px'
@@ -63,11 +64,12 @@
             src="../assets/congresso-ti.png"
             alt="Congresso de TI">
         </a>
+        
       </div>
       <div>
         <a
           target="_blank"
-          href="https://www.meetup.com/pt-BR/Coders-in-Rio/">
+          href="https://www.meetup.com/pt-BR/Coders-in-Rio/?origin=CursoNodeBR">
           <img
             src="../assets/coders-in-rio.png"
             alt="coders in rio">
@@ -75,25 +77,60 @@
         
         <a
           target="_blank"
-          href="https://www.facebook.com/thememecode/">
+          href="https://www.facebook.com/thememecode/?origin=CursoNodeBR">
           <img
+            
             src="../assets/memecode.png"
             alt="memecode">
         </a>
         <a
           target="_blank"
-          href="https://www.meetup.com/pt-BR/graphdb-sp/">
+          href="https://www.meetup.com/pt-BR/graphdb-sp/?origin=CursoNodeBR">
           <img
+            :style="{
+              width: '150px'
+            }"
             src="../assets/graph-databases-sp.jpeg"
             alt="graph databases sp">
         </a>
         <a
           target="_blank"
-          href="https://www.meetup.com/pt-BR/nosqlsp">
+          href="https://www.meetup.com/pt-BR/nosqlsp?origin=CursoNodeBR">
           <img
+            :style="{
+              width: '150px'
+            }"
             src="../assets/no-sql-sp.jpeg"
             alt="nosql sp">
         </a>
+      </div>
+      <div>
+        <a
+          target="_blank"
+          href="https://codeprestige.com.br/?origin=CursoNodeBR">
+          <img
+            src="../assets/code-prestige.png"
+            alt="code prestige">
+        </a>
+        <a
+          target="_blank"
+          href="https://reprograma.com.br?origin=CursoNodeBR">
+          <img
+            :style="{
+              width: '150px'
+            }"
+            src="../assets/reprograma.png"
+            alt="Reprograma">
+        </a>
+        <a
+          target="_blank"
+          href="https://fb.com/jundevelopers?origin=CursoNodeBR">
+          <img
+            
+            src="../assets/jundevelopers.jpg"
+            alt="JunDevelopers">
+        </a>
+        
       </div>
     </div>
   </section>

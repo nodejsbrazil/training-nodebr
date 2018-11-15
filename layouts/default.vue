@@ -5,8 +5,7 @@
 </template>
 
 <script>
-export default {
-}
+export default {};
 </script>
 
 <style lang="sass">
@@ -51,5 +50,11 @@ body
   width: 22px
   height: 22px
   margin-left: 15px
+
+.icon--web
+  background-image: url('~assets/web.png')
+  background-size: 22px
+  width: 22px
+  height: 22px
 </style>
 

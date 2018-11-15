@@ -7,19 +7,24 @@
         Sobre o instrutor
       </StyledTitle>
       <h3>Erick Wendel</h3>
-      <p>Pós graduando em Business Intelligence with Big Data. Microsoft Most Valuable Professional (MVP). Community Manager nas comunidades NodeBR, Javascript São Paulo, Nerdzão e Nerdgirlz. Socio/CTO na EW.IT, Microsoft Certified Professional, Microsoft Specialist. Possui amplo conhecimento em desenvolvimento de software, experiência em arquitetura, desenvolvimento e segurança de aplicações. Palestrante nas maiores conferências de Javascript, Node.js e segurança da América latina.</p>
+      <p>Consultor em arquitetura de soluções em foco cloud computing. Microsoft Most Valuable Professional (MVP). Co-organizador das comunidades NodeBR, Javascript São Paulo, Nerdzão e Nerdgirlz. Fundador da EW.IT, Microsoft Certified Professional e Microsoft Specialist. Possui amplo conhecimento em desenvolvimento de software, experiência em arquitetura, desenvolvimento e segurança de aplicações. Palestrante nas maiores conferências de Javascript, Node.js e segurança da América latina.</p>
       <div>
         <a
           target="_blank"
-          href="https://twitter.com/erickwendel_"
+          href="https://twitter.com/erickwendel_?origin=CursoNodeBR"
           class="icon icon--twitter" />
         <a
           target="_blank"
-          href="https://github.com/erickwendel"
+          href="https://github.com/erickwendel?origin=CursoNodeBR"
           class="icon icon--github" />
         <a
           target="_blank"
-          href="https://www.linkedin.com/in/erickwendel"
+          href="https://erickwendel.github.io/timeline?origin=CursoNodeBR"
+          class="icon icon--web" />
+
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/erickwendel?origin=CursoNodeBR"
           class="icon icon--linkedin" />
       </div>
     </div>
@@ -27,12 +32,12 @@
 </template>
 
 <script>
-import StyledTitle from './Title'
+import StyledTitle from './Title';
 
 export default {
   name: 'Author',
-  components: { StyledTitle }
-}
+  components: { StyledTitle },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -51,7 +56,7 @@ $authorHeight: 600px;
   }
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     width: 100vw;
     height: $authorHeight;
