@@ -43,6 +43,7 @@
             src="../assets/tht.png"
             alt="tht">
         </a>
+        
         <a
           target="_blank"
           href="https://criciumadev.com.br/?origin=CursoNodeBR">
@@ -67,6 +68,7 @@
         
       </div>
       <div>
+        
         <a
           target="_blank"
           href="https://www.meetup.com/pt-BR/Coders-in-Rio/?origin=CursoNodeBR">
@@ -75,21 +77,12 @@
             alt="coders in rio">
         </a>
         
-        <a
-          target="_blank"
-          href="https://www.facebook.com/thememecode/?origin=CursoNodeBR">
-          <img
-            
-            src="../assets/memecode.png"
-            alt="memecode">
-        </a>
+        
         <a
           target="_blank"
           href="https://www.meetup.com/pt-BR/graphdb-sp/?origin=CursoNodeBR">
           <img
-            :style="{
-              width: '150px'
-            }"
+            
             src="../assets/graph-databases-sp.jpeg"
             alt="graph databases sp">
         </a>
@@ -103,8 +96,26 @@
             src="../assets/no-sql-sp.jpeg"
             alt="nosql sp">
         </a>
+        <a
+          target="_blank"
+          href="https://fb.com/jundevelopers?origin=CursoNodeBR">
+          <img
+            
+            src="../assets/jundevelopers.jpg"
+            alt="JunDevelopers">
+        </a>
       </div>
       <div>
+        <a
+          target="_blank"
+          href="https://www.meetup.com/WoMakersCode/?origin=CursoNodeBR">
+          <img
+            :style="{
+              width: '150px'
+            }"
+            src="../assets/womakerscode.png"
+            alt="Womakers Code">
+        </a>
         <a
           target="_blank"
           href="https://codeprestige.com.br/?origin=CursoNodeBR">
@@ -122,15 +133,26 @@
             src="../assets/reprograma.png"
             alt="Reprograma">
         </a>
+        
         <a
           target="_blank"
-          href="https://fb.com/jundevelopers?origin=CursoNodeBR">
+          href="https://react-brasil-slack.herokuapp.com?origin=CursoNodeBR">
           <img
             
-            src="../assets/jundevelopers.jpg"
-            alt="JunDevelopers">
+            src="../assets/reactbrasil.png"
+            alt="React Brasil">
         </a>
         
+        <a
+          target="_blank"
+          href="https://www.facebook.com/thememecode/?origin=CursoNodeBR">
+          <img
+            :style="{
+              width: '80px'
+            }"
+            src="../assets/memecode.png"
+            alt="memecode">
+        </a>
       </div>
     </div>
   </section>
