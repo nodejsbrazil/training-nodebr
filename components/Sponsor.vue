@@ -19,28 +19,38 @@
         </a>
         <a
           target="_blank"
+          href="#">
+          <img
+            :style="{
+              width: '130px'
+            }"
+            src="../assets/amigu.png"
+            alt="projeto amigu">
+        </a>
+        <a
+          target="_blank"
           href="https://www.facebook.com/gruporesolvdata/">
           <img
             src="../assets/resolv.png"
             alt="grupo resolv">
         </a>
+        
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import StyledTitle from './Title'
+import StyledTitle from './Title';
 
 export default {
   name: 'Sponsor',
-  components: { StyledTitle }
-}
+  components: { StyledTitle },
+};
 </script>
 
 <style lang="scss" scoped>
 .Sponsor {
-
   > .SponsorContainer {
     display: flex;
     flex-direction: column;
