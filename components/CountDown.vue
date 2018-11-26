@@ -24,7 +24,7 @@ export default {
   components: { VueCountdown },
   computed: {
     calculateTime() {
-      return new Date('2018-11-27T02:00:00.060Z') - new Date().getTime();
+      return new Date('2018-11-27T00:00:00').getTime() - new Date().getTime();
     },
   },
 };
