@@ -17,17 +17,17 @@
 </template>
 
 <script>
-import VueCountdown from '@chenfengyuan/vue-countdown'
+import VueCountdown from '@chenfengyuan/vue-countdown';
 
 export default {
   name: 'CountDown',
   components: { VueCountdown },
   computed: {
-    calculateTime () {
-      return new Date('2018-11-27') - new Date().getTime()
-    }
-  }
-}
+    calculateTime() {
+      return new Date('2018-11-27T02:00:00.060Z') - new Date().getTime();
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -43,7 +43,7 @@ export default {
   align-items: center;
   font-family: 'Lobster Two', cursive;
   text-align: center;
-  
+
   i {
     font-size: 20px;
     color: #999;
