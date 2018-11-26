@@ -1,7 +1,8 @@
 <template>
   <a
     :style="{ margin: margin }"
-    href="https://erickwendel.typeform.com/to/y6vACu"
+    target="__blank"
+    href="https://sso.teachable.com/secure/295257/users/sign_up?origin=LandingNodeBR&after_success_url=%2Fsecure%2F295257%2Fcheckout%2F881116%2Fnode-js-para-iniciantes-nodebr"
     class="StyledBtn">
     <slot />
   </a>
@@ -11,15 +12,15 @@
 export default {
   name: 'StyledButton',
   props: {
-    margin: { type: String, default: '0px' }
-  }
-}
+    margin: { type: String, default: '0px' },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
 .StyledBtn {
   position: relative;
-  border: 1px solid #06EF07;
+  border: 1px solid #06ef07;
   background-color: transparent;
   padding: 20px 30px;
   font-size: 20px;
@@ -29,18 +30,18 @@ export default {
   text-transform: uppercase;
   text-align: center;
   outline: none;
-  color: #06EF07;
-  transition: all .1s ease-in;
+  color: #06ef07;
+  transition: all 0.1s ease-in;
 
   &:hover {
-    background-color: #06EF07;
+    background-color: #06ef07;
     color: #fff;
     cursor: pointer;
   }
 
   &::after {
     position: absolute;
-    content: "treinamento online e gratuito!";
+    content: 'treinamento online e gratuito!';
     font-size: 10px;
     color: #ccc;
     font-weight: 700;
