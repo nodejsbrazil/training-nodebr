@@ -4,7 +4,7 @@
       <StyledTitle
         color="#fff"
         margin="0px 0px 60px 0px">Garanta sua vaga</StyledTitle>
-      <StyledButton margin="0px 0px 60px 0px">Inscreva-se!</StyledButton>
+      <StyledButton margin="0px 0px 60px 0px">{{ getRightText }}</StyledButton>
     </div>
   </section>
 </template>
@@ -12,10 +12,14 @@
 <script>
 import StyledTitle from './Title'
 import StyledButton from './Button.vue'
+import { getRightText } from '@/utils/helpers'
 
 export default {
   name: 'CTA',
-  components: { StyledTitle, StyledButton }
+  components: { StyledTitle, StyledButton },
+  computed: {
+    getRightText
+  }
 }
 </script>
 

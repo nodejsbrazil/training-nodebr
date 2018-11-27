@@ -8,17 +8,21 @@
           <p>{{ props.days }} dias {{ props.hours }} horas {{ props.minutes }} minutos {{ props.seconds }} segundos</p>
         </template>
       </VueCountdown>
-      <StyledButton margin="50px 0px">Reserve sua vaga!</StyledButton>
+      <StyledButton margin="50px 0px">{{ getRightText }}</StyledButton>
     </div>
   </section>
 </template>
 
 <script>
 import StyledButton from './Button.vue'
+import { getRightText } from '@/utils/helpers'
 
 export default {
   name: 'Hero',
-  components: { StyledButton }
+  components: { StyledButton },
+  computed: {
+    getRightText
+  }
 }
 </script>
 
