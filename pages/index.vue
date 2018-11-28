@@ -8,7 +8,7 @@
     <Sponsor />
     <Communities />
     <CTA />
-    <CountDown />
+    <!-- <CountDown /> -->
   </div>
 </template>
 
