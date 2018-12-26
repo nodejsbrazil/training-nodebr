@@ -3,53 +3,62 @@ export default [
     title: 'Introdução ao Curso',
     items: [
       'Introdução ao Curso e Objetivos',
-      'Tópicos abordados - O que aprenderei?',
+      'Tópicos abordados - O que aprenderei ?',
       'Instalação e Configuração',
       'Introdução ao Node.js',
-      'Entendendo o Event Loop',
-      'Conhecendo o gerenciador de pacotes NPM'
+      'Conhecendo o gerenciador de pacotes NPM',
+      'Começando um projeto Node.js',
     ]
   },
   {
     title: 'Sincronia de Funções Javascript',
     items: [
+      'Introdução ao Capitulo',
       'Entendendo o ciclo de vida de aplicações Javascript',
-      'Trabalhando com Callbacks',
+      'Trabalhando com Callbacks ',
       'Introdução a Promises',
       'Refatorando Callbacks para Promises',
       'Introdução a resolução de Promises com async/await',
       'Resolução de promises com Async/Await',
-      'Trabalhando com Eventos com a classe EventEmitter'
+      'Introdução à manipulação de eventos com EventEmitter',
+      'Trabalhando com Eventos com a classe EventEmitter',
     ]
   },
   {
     title: 'Manipulação de Listas',
     items: [
+      'Introdução ao Capitulo',
       'Manipulando listas com For/ForIn/ForOf',
       'Criando nosso proprio Array.Map',
       'Criando nosso proprio Array.Filter',
-      'Criando nosso proprio Array.Reduce'
+      'Criando nosso proprio Array.Reduce',
     ]
   },
   {
     title: 'Introdução a desenvolvimento de testes automatizados',
     items: [
-      'Introdução a desenvolvimento de testes automatizados em Javascript'
+      'Introdução a desenvolvimento de testes automatizados em Javascript',
+      'Ambiente e configuração do ciclo de testes'
     ]
   },
   {
     title: 'Node.js além da Web - Criando ferramentas de linha de comando',
     items: [
+      'Introdução ao Capítulo',
       'Manipulando arquivos - CREATE',
       'Manipulando arquivos - READ',
       'Manipulando arquivos - UPDATE',
-      'Manipulando arquivos - DELETE'
+      'Manipulando arquivos - DELETE',
+      'Criando ferramentas de linha de comando com Commander',
     ]
   },
   {
     title: 'Bancos de Dados - Nosso projeto Multi-banco de dados',
     items: [
-      'Trabalhando com o padrão Strategy para Multi DataSources'
+      'Criando projetos multi-banco de dados',
+      'Trabalhando com o padrão Strategy para Multi DataSources',
+      'Design Patterns - Strategy',
+      'Demonstração multi datasources com strategy design pattern',
     ]
   },
   {
@@ -61,7 +70,7 @@ export default [
       'Cadastrando Heróis - CREATE',
       'Listando Heróis - READ',
       'Atualizando Heróis - UPDATE',
-      'Removendo Heróis - DELETE'
+      'Removendo Heróis - DELETE',
     ]
   },
   {
@@ -73,7 +82,14 @@ export default [
       'Cadastrando Heróis - CREATE',
       'Listando Heróis - READ',
       'Atualizando Heróis - UPDATE',
-      'Removendo Heróis - DELETE'
+      'Removendo Heróis - DELETE',
+    ]
+  },
+  {
+    title: 'Refatorando nosso projeto para bancos de dados multi-schemas',
+    items: [
+      'Refatorando a estratégia de MongoDB para multi-schemas',
+      'Refatorando a estratégia de Postgres para multi-schemas',
     ]
   },
   {
@@ -85,10 +101,11 @@ export default [
       'Cadastrando Heróis - POST',
       'Validação de Requisições com Joi',
       'Listando Heróis - GET',
-      'Atualizando Heróis- PATCH / PUT',
-      'Removendo Heróis - DELETE'
+      'Atualizando Heróis - PATCH / PUT',
+      'Removendo Heróis - DELETE',
     ]
-  },
+  }, 
+  
   {
     title: 'Documentação de Serviços com Swagger',
     items: [
@@ -98,17 +115,23 @@ export default [
   {
     title: 'Autenticação com Json Web Token',
     items: [
+      'Introdução ao Capitulo',
       'Como funciona o Json Web Token?',
-      'Adicionando Hapi-JWT ao nosso Serviço'
+      'Configurando o JWT - plugins, testes e rota de login',
+      'Adicionando Hapi-JWT ao nosso Serviço de herois',
+      'Criando o modulo de autenticação de usuarios e hash de senha com bcrypt',
     ]
   },
   {
     title: 'Publicação de serviços na Web',
     items: [
-      'Trabalhando com PM2 para gerência de apps',
+      'Introdução ao Capitulo',
+      'Trabalhando com multi-environments (development, production)',
       'Publicação de nossos serviços gratuitamente com Heroku & Heroku toolbelt',
       'MongoDB online e gratuito com Mongo Lab',
-      'Nosso aplicativo em Produção'
+      'Postgres Gratuito no Heroku',
+      'Trabalhando com PM2 para gerência de apps',
+      'Expondo cobertura de código com istanbul',
     ]
   },
   {
