@@ -1,5 +1,4 @@
-export default [
-  {
+export default [{
     title: 'Introdução ao Curso',
     items: [
       'Introdução ao Curso e Objetivos',
@@ -95,17 +94,19 @@ export default [
   {
     title: 'Node.js e Web Services - Criando serviços profissionais com Hapi.js',
     items: [
+      'Introdução ao Capítulo',
       'Conhecendo o Módulo HTTP',
-      'Iniciando um servidor com Hapi.js',
+      'Introdução ao Hapi.js',
+      'Criando de estrutura para criação de APIs com Hapi.js',
       'Entendendo o padrão RestFul para desenvolvimento de APIs',
       'Cadastrando Heróis - POST',
-      'Validação de Requisições com Joi',
       'Listando Heróis - GET',
       'Atualizando Heróis - PATCH / PUT',
       'Removendo Heróis - DELETE',
+      'Código fonte do capítulo',
     ]
-  }, 
-  
+  },
+
   {
     title: 'Documentação de Serviços com Swagger',
     items: [

@@ -54,7 +54,16 @@
             src="../assets/criciuma.svg"
             alt="criciuma">
         </a>
-        
+        <a
+          target="_blank"
+          href="https://loiane.training/?origin=CursoNodeBR">
+          <img
+            :style="{
+              width: '200px'
+            }"
+            src="../assets/loianetraining.png"
+            alt="Loiane Trainning">
+        </a>
         <a
           target="_blank"
           href="https://workweb.congressodeti.com.br/?origin=CursoNodeBR">
@@ -104,6 +113,7 @@
             src="../assets/jundevelopers.jpg"
             alt="JunDevelopers">
         </a>
+        
       </div>
       <div>
         <a
