@@ -113,6 +113,13 @@
             src="../assets/jundevelopers.jpg"
             alt="JunDevelopers">
         </a>
+        <a
+          target="_blank"
+          href="https://www.facebook.com/DownsHackerOficial?origin=CursoNodeBR">
+          <img
+            src="../assets/downshacker.png"
+            alt="Downs Hacker">
+        </a>
         
       </div>
       <div>
